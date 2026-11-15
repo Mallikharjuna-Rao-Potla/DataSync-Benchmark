@@ -1,0 +1,30 @@
+2026-11-15 16:46:57,525 | INFO    | Generating dataset: 100 orders (seed=42, hot_days=None)
+2026-11-15 16:46:57,561 | INFO    | Dataset generated successfully.
+2026-11-15 16:46:57,563 | INFO    | Dataset metadata: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\_dataset.json
+2026-11-15 16:46:57,563 | INFO    | Baseline directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\baseline
+2026-11-15 16:46:57,563 | INFO    | Incoming directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\incoming
+2026-11-15 16:46:57,636 | INFO    | run_20261115_111657_3f7663 | strategies=['full_refresh', 'incremental', 'partition_replace']
+2026-11-15 16:46:57,805 | INFO    | Loading initial baseline data.
+2026-11-15 16:46:57,805 | INFO    | input=21 valid=18 rejected=3 net_changes=17 batch=3e871547f95347f5
+2026-11-15 16:46:57,849 | INFO    | full_refresh       SUCCESS                  ins=9 upd=6 del=2 stale=0 rows=107 time=0.016s
+2026-11-15 16:46:57,869 | INFO    | incremental        SUCCESS                  ins=9 upd=6 del=2 stale=0 rows=107 time=0.003s
+2026-11-15 16:46:57,899 | INFO    | partition_replace  SUCCESS                  ins=9 upd=6 del=2 stale=0 rows=107 time=0.012s
+2026-11-15 16:46:58,229 | INFO    | Reports generated successfully.
+2026-11-15 16:46:58,229 | INFO    | Reports directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\reports
+2026-11-15 16:46:58,229 | INFO    | Reconciliation: ALL STRATEGIES EQUIVALENT
+2026-11-15 16:47:54,089 | INFO    | Dataset generation skipped. Existing dataset matches the requested configuration.
+2026-11-15 16:49:00,416 | INFO    | Generating dataset: 10,000 orders (seed=42, hot_days=None)
+2026-11-15 16:49:00,654 | INFO    | Dataset generated successfully.
+2026-11-15 16:49:00,654 | INFO    | Dataset metadata: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\_dataset.json
+2026-11-15 16:49:00,655 | INFO    | Baseline directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\baseline
+2026-11-15 16:49:00,655 | INFO    | Incoming directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\incoming
+2026-11-15 16:49:13,881 | INFO    | Generating dataset: 100,000 orders (seed=42, hot_days=None)
+2026-11-15 16:49:15,784 | INFO    | Dataset generated successfully.
+2026-11-15 16:49:15,784 | INFO    | Dataset metadata: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\_dataset.json
+2026-11-15 16:49:15,786 | INFO    | Baseline directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\baseline
+2026-11-15 16:49:15,786 | INFO    | Incoming directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\incoming
+2026-11-15 16:51:34,968 | INFO    | Generating dataset: 100,000 orders (seed=42, hot_days=7)
+2026-11-15 16:51:36,793 | INFO    | Dataset generated successfully.
+2026-11-15 16:51:36,793 | INFO    | Dataset metadata: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\_dataset.json
+2026-11-15 16:51:36,793 | INFO    | Baseline directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\baseline
+2026-11-15 16:51:36,793 | INFO    | Incoming directory: C:\CandidateWorkspace\sample\DataSync-Benchmark\DataSync-Benchmark\data\validation\raw\incoming

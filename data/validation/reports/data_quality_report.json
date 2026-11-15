@@ -1,0 +1,15 @@
+{
+  "run_id": "run_20261115_111657_3f7663",
+  "batch_id": "3e871547f95347f5",
+  "input_records": 21,
+  "valid_records": 18,
+  "rejected_records": 3,
+  "rejected_by_reason": {
+    "NEGATIVE_AMOUNT": 1,
+    "MISSING_ORDER_ID": 1,
+    "DUPLICATE_EVENT": 1
+  },
+  "net_changes_after_collapse": 17,
+  "baseline_rows": 100,
+  "baseline_rejected": 0
+}

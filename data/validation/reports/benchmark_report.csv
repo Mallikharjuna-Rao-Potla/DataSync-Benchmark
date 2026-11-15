@@ -1,0 +1,4 @@
+strategy,size,repeats,input_records,valid_records,rejected_records,inserted,updated,deleted,skipped_stale,final_row_count,median_sec,min_sec,max_sec,records_per_sec,rows_written,partitions_affected,db_size_mb,reconciliation
+full_refresh,100000,5,20400,19200,1200,4861,5198,1322,54,103539,1.5119,1.4297,1.5618,12699,103539,,48.98,PASS
+incremental,100000,5,20400,19200,1200,4861,5198,1322,54,103539,0.3949,0.3804,0.427,48616,11381,,48.62,PASS
+partition_replace,100000,5,20400,19200,1200,4861,5198,1322,54,103539,0.32,0.2918,0.4354,59996,11329,7.0,49.15,PASS

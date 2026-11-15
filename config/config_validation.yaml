@@ -1,0 +1,26 @@
+# Isolated validation environment
+paths:
+  raw_baseline_dir: data/validation/raw/baseline
+  raw_incoming_dir: data/validation/raw/incoming
+  staging_dir: data/validation/staging
+  quarantine_dir: data/validation/quarantine
+  warehouse_db: data/validation/warehouse/benchmark_validation.db
+  reports_dir: data/validation/reports
+  log_file: data/validation/logs/pipeline.log
+
+files:
+  customers: customers.csv
+  baseline_orders: orders.csv
+  order_events: order_events.csv
+
+generator:
+  seed: 42
+  customers_ratio: 0.1
+  events_ratio: 0.2
+
+pipeline:
+  partition_column: order_date
+  allowed_status: [PLACED, PAID, SHIPPED, DELIVERED, CANCELLED]
+
+benchmark:
+  repeats: 5

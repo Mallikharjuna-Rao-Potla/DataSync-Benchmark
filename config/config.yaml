@@ -1,0 +1,22 @@
+# All tunables live here -- no Python edits needed to change behaviour.
+paths:
+  raw_baseline_dir: data/raw/baseline
+  raw_incoming_dir: data/raw/incoming
+  staging_dir: data/staging
+  quarantine_dir: data/quarantine
+  warehouse_db: data/warehouse/benchmark.db
+  reports_dir: data/reports
+  log_file: data/logs/pipeline.log
+files:
+  customers: customers.csv
+  baseline_orders: orders.csv
+  order_events: order_events.csv
+generator:
+  seed: 42
+  customers_ratio: 0.1        # customers = size * ratio (min 10)
+  events_ratio: 0.2           # change events = size * ratio (min 10)
+pipeline:
+  partition_column: order_date
+  allowed_status: [PLACED, PAID, SHIPPED, DELIVERED, CANCELLED]
+benchmark:
+  repeats: 5

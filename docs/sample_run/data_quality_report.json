@@ -1,0 +1,19 @@
+{
+  "run_id": "run_20261115_090826_5ac70f",
+  "batch_id": "8bcf08245cfdfcc0",
+  "input_records": 2040,
+  "valid_records": 1920,
+  "rejected_records": 120,
+  "rejected_by_reason": {
+    "DUPLICATE_EVENT": 37,
+    "MISSING_ORDER_ID": 15,
+    "MISSING_REQUIRED_FIELD": 15,
+    "NEGATIVE_AMOUNT": 14,
+    "INVALID_CUSTOMER": 13,
+    "INVALID_OPERATION": 13,
+    "INVALID_DATE": 13
+  },
+  "net_changes_after_collapse": 1823,
+  "baseline_rows": 10000,
+  "baseline_rejected": 0
+}

@@ -1,0 +1,120 @@
+{
+  "expected_rows": 107,
+  "strategies": {
+    "full_refresh": {
+      "strategy": "full_refresh",
+      "status": "PASS",
+      "checks": {
+        "row_count": {
+          "pass": true,
+          "target": 107,
+          "expected": 107
+        },
+        "primary_key_unique": {
+          "pass": true,
+          "duplicates": 0
+        },
+        "missing_records": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "extra_records": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "value_mismatches": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "aggregates": {
+          "pass": true
+        },
+        "record_hash": {
+          "pass": true
+        }
+      }
+    },
+    "incremental": {
+      "strategy": "incremental",
+      "status": "PASS",
+      "checks": {
+        "row_count": {
+          "pass": true,
+          "target": 107,
+          "expected": 107
+        },
+        "primary_key_unique": {
+          "pass": true,
+          "duplicates": 0
+        },
+        "missing_records": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "extra_records": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "value_mismatches": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "aggregates": {
+          "pass": true
+        },
+        "record_hash": {
+          "pass": true
+        }
+      }
+    },
+    "partition_replace": {
+      "strategy": "partition_replace",
+      "status": "PASS",
+      "checks": {
+        "row_count": {
+          "pass": true,
+          "target": 107,
+          "expected": 107
+        },
+        "primary_key_unique": {
+          "pass": true,
+          "duplicates": 0
+        },
+        "missing_records": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "extra_records": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "value_mismatches": {
+          "pass": true,
+          "count": 0,
+          "sample": []
+        },
+        "aggregates": {
+          "pass": true
+        },
+        "record_hash": {
+          "pass": true
+        }
+      }
+    }
+  },
+  "record_hashes": {
+    "full_refresh": "46a3c06f05470d67e16bc45b32ec5521162f96cafdbe6acfe638f8df5410ff90",
+    "incremental": "46a3c06f05470d67e16bc45b32ec5521162f96cafdbe6acfe638f8df5410ff90",
+    "partition_replace": "46a3c06f05470d67e16bc45b32ec5521162f96cafdbe6acfe638f8df5410ff90"
+  },
+  "all_strategies_equivalent": true,
+  "overall": "ALL STRATEGIES EQUIVALENT"
+}

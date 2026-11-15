@@ -1,0 +1,7 @@
+# Data contract: a missing required column fails the whole batch (SchemaError).
+customers:
+  required: [customer_id, customer_name, created_at]
+baseline_orders:
+  required: [order_id, customer_id, order_date, amount, status, updated_at]
+order_events:
+  required: [event_id, order_id, operation, customer_id, order_date, amount, status, updated_at, source_sequence]

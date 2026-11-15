@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/baseline/*.csv
+data/raw/incoming/*.csv
+data/raw/_dataset.json
+data/staging/*
+data/quarantine/*
+data/warehouse/*
+data/reports/*
+data/logs/*
+!data/**/.gitkeep

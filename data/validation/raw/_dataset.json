@@ -1,0 +1,10 @@
+{
+    "size": 100000,
+    "seed": 42,
+    "batch_id": "d85773ef370a44ff839bb85e58c63e4c",
+    "hot_days": 7,
+    "customers": 10000,
+    "events": 20400,
+    "unique_event_ids": 20000,
+    "duplicate_deliveries": 400
+}
